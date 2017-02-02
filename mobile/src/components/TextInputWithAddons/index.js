@@ -1,0 +1,1 @@
+export { TextInputWithAddons } from './TextInputWithAddons';

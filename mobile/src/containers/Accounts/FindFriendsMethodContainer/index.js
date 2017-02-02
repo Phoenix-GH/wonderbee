@@ -1,0 +1,1 @@
+export { FindFriendsMethodContainer } from './FindFriendsMethodContainer';

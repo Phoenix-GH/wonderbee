@@ -1,0 +1,1 @@
+export { ColonyPost } from './ColonyPost';

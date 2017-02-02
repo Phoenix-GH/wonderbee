@@ -1,0 +1,1 @@
+export { HexagonIcon } from './HexagonIcon';

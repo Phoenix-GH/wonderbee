@@ -1,0 +1,1 @@
+export { CameraRecButton } from './CameraRecButton';

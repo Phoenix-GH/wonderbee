@@ -1,0 +1,1 @@
+export { SearchContacts } from './SearchContacts';

@@ -1,0 +1,1 @@
+export { ChangePhotoModal } from './ChangePhotoModal';

@@ -1,0 +1,1 @@
+export { CameraRollContainer } from './CameraRollContainer';

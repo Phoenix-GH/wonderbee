@@ -1,0 +1,1 @@
+export { TextBar } from './TextBar';

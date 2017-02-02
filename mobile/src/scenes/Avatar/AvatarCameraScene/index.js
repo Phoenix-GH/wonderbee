@@ -1,0 +1,1 @@
+export { AvatarCameraScene } from './AvatarCameraScene';

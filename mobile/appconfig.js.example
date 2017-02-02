@@ -1,0 +1,3 @@
+module.exports = {
+  WSOCKET: 'http://localhost:3030',
+};

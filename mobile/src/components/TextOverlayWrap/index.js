@@ -1,0 +1,1 @@
+export { TextOverlayWrap } from './TextOverlayWrap';

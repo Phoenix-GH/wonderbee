@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>JustHive</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.72</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.doubleqliq.justhive.ios</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>hive</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>JustHive requires access to the camera.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>JustHive is requesting access to your contacts.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>JustHive requires access to location services.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>JustHive requires access to location services.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>JustHive requires access to location services.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>JustHive requires access to the microphone.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>JustHive is requesting access to your photo library.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Proxima Nova Black It.otf</string>
+		<string>Proxima Nova Black.otf</string>
+		<string>Proxima Nova Bold It.otf</string>
+		<string>Proxima Nova Bold.otf</string>
+		<string>Proxima Nova Light It.otf</string>
+		<string>Proxima Nova Light.otf</string>
+		<string>Proxima Nova Reg It.otf</string>
+		<string>Proxima Nova Reg.otf</string>
+		<string>Proxima Nova Sbold It.otf</string>
+		<string>Proxima Nova Sbold.otf</string>
+		<string>Proxima Nova Thin It.otf</string>
+		<string>Proxima Nova Thin.otf</string>
+		<string>Proxima Nova Xbold It.otf</string>
+		<string>Proxima Nova Xbold.otf</string>
+		<string>ProximaNovaCond-Light.otf</string>
+		<string>ProximaNovaCond-LightIt.otf</string>
+		<string>ProximaNovaCond-Regular.otf</string>
+		<string>ProximaNovaCond-RegularIt.otf</string>
+		<string>ProximaNovaCond-Semibold.otf</string>
+		<string>ProximaNovaCond-SemiboldIt.otf</string>
+		<string>Panton-SemiBold.otf</string>
+		<string>Panton-Heavy.otf</string>
+		<string>Fontfabric - Panton.otf</string>
+		<string>Fontfabric - Panton Bold.otf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>Zocial.ttf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

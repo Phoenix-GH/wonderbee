@@ -1,0 +1,1 @@
+export { AvatarCameraRollContainer } from './AvatarCameraRollContainer';

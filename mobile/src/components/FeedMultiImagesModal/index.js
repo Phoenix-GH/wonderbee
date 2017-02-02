@@ -1,0 +1,1 @@
+export { FeedMultiImagesModal } from './FeedMultiImagesModal';

@@ -1,0 +1,1 @@
+export { HexagonGrid } from './HexagonGrid';

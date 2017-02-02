@@ -1,0 +1,1 @@
+export { AvatarEdit } from './AvatarEdit';

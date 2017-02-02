@@ -1,0 +1,26 @@
+export const COMMENT_SERVICE = 'comments';
+export const MESSAGE_SERVICE = 'messages';
+export const POST_SERVICE = 'posts';
+export const USER_SERVICE = 'users';
+export const HEATMAP_VOTE_SERVICE = 'heatmapVotes';
+export const IMAGE_VOTE_SERVICE = 'imageVotes';
+export const POST_VOTE_SERVICE = 'postVotes';
+export const COMMENT_VOTE_SERVICE = 'commentVotes';
+export const FOLLOWER_SERVICE = 'followers';
+export const SEARCH_SERVICE = 'search';
+export const NOTIFICATION_SERVICE = 'notifications';
+export const RESET_PASSWORD_SERVICE = 'resetPassword';
+export const GROUP_SERVICE = 'groups';
+export const GROUP_USER_SERVICE = 'groupUsers';
+export const COLONY_SERVICE = 'colonies';
+export const CATEGORY_SERVICE = 'categories';
+export const VERIFICATION_SERVICE = 'verification';
+export const GUEST_SERVICE = 'guest';
+export const UPLOAD_SERVICE = 'uploads';
+export const GEOLOCATION_SERVICE = 'geolocation';
+export const FACEBOOK_SERVICE = 'facebook';
+export const EMOJI_SERVICE = 'emojis';
+export const HASHTAG_SERVICE = 'hashtags';
+export const LOCATION_SERVICE = 'locations';
+// version client for the guest service
+export const CLIENT_TOKEN = 'hi';

@@ -1,0 +1,79 @@
+{
+  "auth": {
+    "idField": "id",
+    "validClients": [
+      {"version": "1", "tokens": ["hi"]}
+    ],
+    "token": {
+      "secret": "L59N73JaE8plMvMl9xiCd6QsuiTy5bjUEx/KID+QhQfZRALXduCn0xDxDG3Sc/TvVP5W8soesuEPbQndDlrmsw==",
+      "expiresIn": "100d"
+    },
+    "local": {
+      "usernameField": "username"
+    },
+    "facebook": {
+      "clientID": "1732926690258264",
+      "clientSecret": "6034070251e16a88d880c53c7378aa32",
+      "permissions": {
+        "authType": "rerequest",
+        "scope": ["public_profile", "email", "user_friends", "user_location", "user_birthday"]
+      }
+    }
+  },
+  "aws": {
+    "s3": {
+      "base_url": "https://static.justhive.com",
+      "bucket": "static.justhive.com",
+      "accessKeyId": "AKIAIT7VGKWLLJGRKAZQ",
+      "secretAccessKey": "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"
+    },
+    "sns": {
+      "region": "us-east-1",
+      "iosPlatformArn": "arn:aws:sns:us-east-1:468005657129:app/APNS/justhive-ios-push",
+      "androidPlatformArn": "arn:aws:sns:us-east-1:468005657129:app/GCM/justhive-android-push",
+      "accessKeyId": "AKIAI3TYJ6CDMKEIF5SQ",
+      "secretAccessKey": "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"
+    },
+    "ses": {
+      "sourceAddress": "noreply@justhive.com",
+      "region": "us-east-1",
+      "accessKeyId": "AKIAI3TYJ6CDMKEIF5SQ",
+      "secretAccessKey": "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"
+    }
+  },
+  "db": {
+    "sequelize": {
+      "dialect": "postgres",
+      "logging": false,
+      "database": "justhive",
+      "port": "5432",
+      "write": {
+        "endpoint": "justhive-prod-1.c7uejteyeljc.us-east-1.rds.amazonaws.com",
+        "username": "jhdb_prod",
+        "password": "zyitq7gHde6Xih"
+      },
+      "read": {
+        "endpoint": "justhive-prod-2.c7uejteyeljc.us-east-1.rds.amazonaws.com",
+        "username": "jhdb_prod",
+        "password": "zyitq7gHde6Xih"
+      }
+    }
+  },
+  "googlePlaces": {
+    "API_KEY": "AIzaSyDuJ7e2ISzfl_Lp8A_ues6oa3gqulMsOo8"
+  },
+  "host": "https://origin-api-qa.justhive.com",
+  "limits": {
+    "bodyParser": {
+      "json": "8mb",
+      "urlencoded": "8mb"
+    }
+  },
+  "port": 8080,
+  "redis": {
+    "hostWrite": "jh-redis-qa.bpfayp.ng.0001.use1.cache.amazonaws.com",
+    "hostRead": "jh-redis-qa.bpfayp.ng.0001.use1.cache.amazonaws.com",
+    "port": "6379",
+    "password": ""
+  }
+}

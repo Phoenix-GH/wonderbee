@@ -1,0 +1,1 @@
+export { ChangePasswordScene } from './ChangePasswordScene';

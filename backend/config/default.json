@@ -1,0 +1,80 @@
+{
+  "auth": {
+    "idField": "id",
+    "validClients": [
+      {"version": "1", "tokens": ["hi"]}
+    ],
+    "token": {
+      "secret": "L59N73JaE8plMvMl9xiCd6QsuiTy5bjUEx/KID+QhQfZRALXduCn0xDxDG3Sc/TvVP5W8soesuEPbQndDlrmsw==",
+      "expiresIn": "100d"
+    },
+    "local": {
+      "usernameField": "username"
+    },
+    "facebook": {
+      "clientID": "1011492238947283",
+      "clientSecret": "7bf895e9cdab50eb9ef17b2bca238941",
+      "permissions": {
+        "authType": "rerequest",
+        "scope": ["public_profile", "email", "user_friends", "user_location", "user_birthday"]
+      }
+    }
+  },
+  "aws": {
+    "s3": {
+      "base_url": "https://static-dev.justhive.com",
+      "bucket": "static-dev.justhive.com",
+      "accessKeyId": "AKIAIT7VGKWLLJGRKAZQ",
+      "secretAccessKey": "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"
+    },
+    "sns": {
+      "region": "us-east-1",
+      "iosPlatformArn": "arn:aws:sns:us-east-1:468005657129:app/APNS_SANDBOX/justhive-ios-push-development",
+      "androidPlatformArn": "arn:aws:sns:us-east-1:468005657129:app/GCM/justhive-android-push",
+      "accessKeyId": "AKIAI3TYJ6CDMKEIF5SQ",
+      "secretAccessKey": "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"
+    },
+    "ses": {
+      "sourceAddress": "noreply@justhive.com",
+      "region": "us-east-1",
+      "accessKeyId": "AKIAI3TYJ6CDMKEIF5SQ",
+      "secretAccessKey": "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"
+    }
+  },
+  "db": {
+    "sequelize": {
+      "dialect": "postgres",
+      "logging": false,
+      "database": "wonderbee",
+      "port": "5432",
+      "write": {
+        "endpoint": "localhost",
+        "username": "wonderbee",
+        "password": "wonderbee"
+      },
+      "read": {
+        "endpoint": "localhost",
+        "username": "wonderbee",
+        "password": "wonderbee"
+      }
+    }
+  },
+  "googlePlaces": {
+    "API_KEY": "AIzaSyDuJ7e2ISzfl_Lp8A_ues6oa3gqulMsOo8"
+  },
+  "host": "http://localhost",
+  "limits": {
+    "bodyParser": {
+      "json": "8mb",
+      "urlencoded": "8mb"
+    }
+  },
+  "port": 3030,
+  "redis": {
+    "hostWrite": "localhost",
+    "hostRead": "localhost",
+    "port": "6379",
+    "password": ""
+  },
+  "version": "0.44"
+}

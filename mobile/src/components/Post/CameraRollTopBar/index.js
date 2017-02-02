@@ -1,0 +1,1 @@
+export { CameraRollTopBar } from './CameraRollTopBar';

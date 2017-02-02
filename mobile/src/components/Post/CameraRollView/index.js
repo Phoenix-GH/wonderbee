@@ -1,0 +1,1 @@
+export { CameraRollView } from './CameraRollView';

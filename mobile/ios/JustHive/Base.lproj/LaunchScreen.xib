@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="q0Y-N4-bqn"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" image="icon_signup_logo" translatesAutoresizingMaskIntoConstraints="NO" id="KsP-8Y-0VJ"/>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="q0Y-N4-bqn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6O4-xF-gCl"/>
+                <constraint firstItem="q0Y-N4-bqn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Y6Z-Gd-h4Y"/>
+                <constraint firstItem="KsP-8Y-0VJ" firstAttribute="centerY" secondItem="q0Y-N4-bqn" secondAttribute="centerY" id="jVP-nU-8i2"/>
+                <constraint firstAttribute="trailing" secondItem="q0Y-N4-bqn" secondAttribute="trailing" id="lyk-1s-IGS"/>
+                <constraint firstItem="KsP-8Y-0VJ" firstAttribute="centerX" secondItem="q0Y-N4-bqn" secondAttribute="centerX" id="w6z-6m-DXp"/>
+                <constraint firstAttribute="bottom" secondItem="q0Y-N4-bqn" secondAttribute="bottom" id="zjQ-3F-B8p"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gradient" width="784" height="1396"/>
+        <image name="icon_signup_logo" width="80" height="80"/>
+    </resources>
+</document>
